@@ -1,10 +1,8 @@
 pluginManagement {
     repositories {
         google()
-        gradlePluginPortal()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
-
 rootProject.name = "kmmLearning"
-include(":kmmLearning")
