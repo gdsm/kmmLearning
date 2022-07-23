@@ -1,8 +1,14 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 
 plugins {
-    kotlin("multiplatform")
-    id("com.android.library")
+    kotlin("multiplatform") version "1.6.10"
+    id("com.android.library") version "7.2.0"
+}
+
+repositories {
+    google()
+    mavenCentral()
+    gradlePluginPortal()
 }
 
 group = "com.neural"
